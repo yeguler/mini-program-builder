@@ -1,0 +1,10 @@
+{
+  "name": "主程序模板",
+  "version": "1.0.0",
+  "tabBar": {
+    "defaultIcons": {
+      "iconPath": "images/tab_default.png",
+      "selectedIconPath": "images/tab_default_active.png"
+    }
+  }
+}

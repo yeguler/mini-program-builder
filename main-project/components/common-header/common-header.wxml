@@ -1,0 +1,20 @@
+<view class="navbar" style="padding-top: {{statusBarHeight}}px; height: {{navBarHeight + statusBarHeight}}px;">
+  <view class="navbar-content">
+    <view class="navbar-left">
+      <view wx:if="{{showBack}}" class="navbar-btn" bindtap="onBack">
+        <image class="navbar-icon" src="/images/back.png"></image>
+      </view>
+      <view wx:else class="navbar-btn" bindtap="onHome">
+        <image class="navbar-icon" src="/images/home.png"></image>
+      </view>
+    </view>
+    
+    <view class="navbar-title">{{title}}</view>
+    
+    <view class="navbar-right">
+      <!-- 右侧可放置其他按钮 -->
+    </view>
+  </view>
+</view>
+
+<view style="height: {{navBarHeight + statusBarHeight}}px;"></view>

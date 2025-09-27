@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "common-header": "/components/common-header/common-header"
+  },
+  "navigationBarTitleText": "主程序首页"
+}

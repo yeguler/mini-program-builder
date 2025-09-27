@@ -1,0 +1,24 @@
+{
+  "name": "mini-program-builder",
+  "version": "1.0.0",
+  "description": "微信小程序构建工具",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "build:demo": "SUB_APPID=wx_demo_appid SUB_PACKAGE_NAME=demo node build.js",
+    "build:prod": "NODE_ENV=production node build.js"
+  },
+  "keywords": [
+    "微信小程序",
+    "构建工具"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^11.3.2"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "glob": "^11.0.3"
+  }
+}

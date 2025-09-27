@@ -1,0 +1,19 @@
+{
+  "packageName": "demo",
+  "name": "示例子程序",
+  "version": "1.0.0",
+  "description": "这是一个示例子程序",
+  "pages": [
+    "pages/index/index"
+  ],
+  "entryPage": "pages/index/index",
+  "tabBar": {
+    "text": "子程序",
+    "iconPath": "images/tab_icon.png",
+    "selectedIconPath": "images/tab_icon_active.png"
+  },
+  "assets": {
+    "include": ["images/**/*", "static/**/*"],
+    "exclude": ["images/.DS_Store", "static/temp/*"]
+  }
+}
