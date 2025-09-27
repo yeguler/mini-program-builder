@@ -1,6 +1,0 @@
-<view class="custom-component {{isEven ? 'even' : 'odd'}}" bindtap="onTap">
-  <text class="component-title">子程序自定义组件</text>
-  <text class="counter-display">{{displayText}}</text>
-  <text class="parity-text">这是一个{{isEven ? '偶数' : '奇数'}}</text>
-  <text class="hint">点击组件触发事件</text>
-</view>

@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "sub-custom": "../../components/sub-custom/sub-custom"
-  },
-  "navigationBarTitleText": "子程序首页"
-}

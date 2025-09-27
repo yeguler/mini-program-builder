@@ -1,24 +1,26 @@
 {
-  "name": "mini-program-builder",
+  "name": "mini-program-pipeline-builder",
   "version": "1.0.0",
-  "description": "微信小程序构建工具",
+  "description": "微信小程序流水线构建工具",
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
-    "build:demo": "SUB_APPID=wx_demo_appid SUB_PACKAGE_NAME=demo node build.js",
-    "build:prod": "NODE_ENV=production node build.js"
+    "build:prod": "NODE_ENV=production node build.js",
+    "build:test": "MAIN_PROJECT_BRANCH=develop node build.js"
   },
   "keywords": [
     "微信小程序",
+    "流水线",
+    "CI/CD",
     "构建工具"
   ],
   "author": "Developer",
   "license": "MIT",
   "devDependencies": {
-    "fs-extra": "^11.3.2"
+    "fs-extra": "^11.0.0",
+    "glob": "^10.0.0"
   },
-  "type": "commonjs",
-  "dependencies": {
-    "glob": "^11.0.3"
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
